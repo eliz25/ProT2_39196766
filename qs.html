@@ -1,109 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quienes somos</title>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/miestilo.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/miestilo.css" />
+  </head>
 
-<body>
-   <header class="d-flex align-items-center justify-content-center position-relative ">
- 
-  <img src="assets/img/logo.jpeg" class="ml-3" alt="Logo" style="width: 100px; position: absolute; left: 0;">
-  <h1 class="mx-auto">Quienes Somos</h1>
-</header>
-
+  <body>
+    <header
+      class="d-flex align-items-center justify-content-center position-relative"
+    >
+      <img
+        src="assets/img/logo.jpeg"
+        class="ml-3"
+        alt="Logo"
+        style="width: 100px; position: absolute; left: 0"
+      />
+      <h1 class="mx-auto">Quienes Somos</h1>
+    </header>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="Principal.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="qs.html"
+                >Quienes Somos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="acercade.html">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
 
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="Principal.html">Inicio</a>
-        </li>
-       <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="qs.html">Quienes Somos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="acercade.html">Acerca de</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="login.html">Login</a>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-            Más
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Contacto</a></li>
-            <li><a class="dropdown-item" href="#">Soporte</a></li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Más
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Contacto</a></li>
+                <li><a class="dropdown-item" href="#">Soporte</a></li>
+              </ul>
+            </li>
           </ul>
-        </li>
-      </ul>
 
-      <form class="d-flex">
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Buscar..." aria-label="Buscar">
-          <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+          <form class="d-flex">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Buscar..."
+                aria-label="Buscar"
+              />
+              <span class="input-group-text"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></span>
+            </div>
+          </form>
         </div>
-      </form>
-    </div>
-  </div>
-</nav>
-
-    <article class="gradient-custom">
-        <div class="container  pb-4">
-  <div class="container pt-4 mb-4">
-  <div class="row align-items-center flex-column flex-lg-row">
-
-    <!-- Imagen 1 -->
-    <div class="col-12 col-lg-4 mb-3 mb-lg-0">
-      <div class="card border-info text-center">
-        <img src="assets/img/image1.jpeg" class="card-img-top img-fluid opacity-75" alt="Foto 1">
       </div>
-    </div>
+    </nav>
+    <!-- Contenido Principal -->
+    <section class="gradient-custom">
+      <div class="container pb-4">
+        <div class="container pt-4 mb-4">
+          <div class="row align-items-center flex-column flex-lg-row">
+            <!-- Imagen 1 -->
+            <div class="col-12 col-lg-4 mb-3 mb-lg-0">
+              <div class="card border-info text-center">
+                <img
+                  src="assets/img/image1.jpeg"
+                  class="card-img-top img-fluid opacity-75"
+                  alt="Foto 1"
+                />
+              </div>
+            </div>
 
-    <!-- Texto -->
-    <div class="col-12 col-lg-4 mb-3 mb-lg-0">
-      <h5 class="text-center px-2 text-white">
-        Somos Uli y Yeny, una pareja que hace poco decidió que siempre que se pueda, vayamos a recorrer Argentina y los alrededores sobre dos ruedas. Descubriendo así nuevos paisajes, culturas, sabores y contándoles nuestra experiencia. <br><br>
-        También está Senbon, nuestro gatito de 6 meses quien por ahora no nos acompaña en los viajes, pero seguramente pronto lo hará.
-      </h4>
-    </div>
+            <!-- Texto -->
+            <div class="col-12 col-lg-4 mb-3 mb-lg-0">
+              <h5 class="text-center px-2 text-white">
+                Somos Uli y Yeny, una pareja que hace poco decidió que siempre
+                que se pueda, vayamos a recorrer Argentina y los alrededores
+                sobre dos ruedas. Descubriendo así nuevos paisajes, culturas,
+                sabores y contándoles nuestra experiencia. <br /><br />
+                También está Senbon, nuestro gatito de 6 meses quien por ahora
+                no nos acompaña en los viajes, pero seguramente pronto lo hará.
+              </h5>
+            </div>
 
-    <!-- Imagen 2 -->
-    <div class="col-12 col-lg-4">
-      <div class="card border-info text-center">
-        <img src="assets/img/image2.jpeg" class="card-img-top img-fluid opacity-75" alt="Foto 2">
+            <!-- Imagen 2 -->
+            <div class="col-12 col-lg-4">
+              <div class="card border-info text-center">
+                <img
+                  src="assets/img/image2.jpeg"
+                  class="card-img-top img-fluid opacity-75"
+                  alt="Foto 2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-
-  </div>
-</div>
-
-</div>
-
-    </article>
+    </section>
     <footer class="bg-dark text-white py-4">
-        <h3 class="text-center">Redes Sociales</h3>
-        <div class="d-flex justify-content-center">
-            <a href="https://www.instagram.com/" class="mr-3"><img src="assets/img/instagram.png" alt=""
-                    width="50"></a>
-            <a href="https://www.facebook.com/" class="ml-3"><img src="assets/img/facebook.png" alt=""
-                    width="50"></a>
-        </div>
-         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-</body>
-
+      <h3 class="text-center">Redes Sociales</h3>
+      <div class="d-flex justify-content-center">
+        <a href="https://www.instagram.com/" class="mr-3"
+          ><img src="assets/img/instagram.png" alt="" width="50"
+        /></a>
+        <a href="https://www.facebook.com/" class="ml-3"
+          ><img src="assets/img/facebook.png" alt="" width="50"
+        /></a>
+      </div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"
+      ></script>
+    </footer>
+  </body>
 </html>
